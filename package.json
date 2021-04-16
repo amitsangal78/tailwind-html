@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-html",
+  "version": "1",
+  "description": "tailwind html",
+  "main": "index.js",
+  "author": "amit sangal",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx postcss tailwind.css -o style.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.1"
+  }
+}
